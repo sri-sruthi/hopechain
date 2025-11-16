@@ -1,4 +1,4 @@
-# HopeChain — AI-Powered Compassion Pipeline
+# HopeChain — AI-Powered Compassion Workflow
 
 A Multi-Agent Ethical AI System for Safe Child Testimony Processing  
 Built for SYNERGY'25 — Creative Media Co-Pilot: Neural.Net Hackathon
@@ -158,6 +158,22 @@ streamlit run admin_dashboard.py
 Runs at: **http://localhost:8502**
 
 ## How the Multi-Agent Pipeline Works
+
+```mermaid
+flowchart TD
+    A[Intake UI\nChild enters story + consent] --> B[Consent Agent\nValidate consent & type]
+    B --> C[Anonymizer Agent\nRemove PII safely]
+    C --> D[Emotion Agent\nDetect fear, sadness, despair]
+    C --> E[Needs Agent\nFood/Medical/Education/Safety]
+    D --> F[Risk Agent\n0–1 scoring + escalation]
+    E --> F
+    F --> G[StoryHive Agent\nLLM microstory + illustration prompts]
+    G --> H[Case Manager\nGenerate Case ID + store]
+    F --> H
+    H --> I[Admin Dashboard\nHuman review + assignment]
+    I --> J[NGO / Counsellor Routing\nassign/resolve/escalate]
+```
+
 
 ### 1. Intake Agent
 - Receives story + consent
