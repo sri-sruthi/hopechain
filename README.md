@@ -80,7 +80,8 @@ hopechain/
 ├── frontend/
 │   ├── app.py                 # User-facing intake UI
 │   ├── admin_dashboard.py     # NGO dashboard (assign, escalate, resolve)
-│
+│   └── requirements.txt
+|
 └── README.md                  # Documentation
 ```
 
