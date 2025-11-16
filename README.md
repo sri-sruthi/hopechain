@@ -7,6 +7,8 @@ Built for SYNERGY'25 — Creative Media Co-Pilot: Neural.Net Hackathon
 
 HopeChain is a multi-agent AI workflow designed to safely process children's testimonies during humanitarian crises.
 
+**Watch the Demo:** [HopeChain Demo Video](https://youtu.be/OjCRgUQObVE?si=wc2CuhcLyXVhq03t)
+
 It ensures:
 
 - Ethical & safe data handling
@@ -219,6 +221,14 @@ This repo includes:
 - Full documentation
 - Clear installation & execution steps
 
-## Final Message
+## Why HopeChain Matters
 
-HopeChain is more than a demo — it is a practical, agentic, ethical creative-media AI system built to save lives by transforming unstructured child testimonies into safe, actionable insights. It showcases multi-agent collaboration, safety governance, open-source LLM usage, and creative storytelling, exactly matching the hackathon expectations.
+In humanitarian crises, children's voices are often the most vulnerable and the most urgent. Yet their testimonies contain sensitive information that must be protected while still being heard and acted upon.
+
+HopeChain bridges this critical gap. It's not just a technical demonstration—it's a blueprint for how AI can serve humanity's most vulnerable populations with dignity, privacy, and compassion.
+
+Every line of code in this system asks: "How can technology amplify a child's voice without exposing them to further harm?"
+
+By combining multi-agent collaboration, ethical AI governance, and privacy-first architecture, HopeChain demonstrates that powerful AI systems can be both intelligent and compassionate. This project proves that we can build technology that protects while it processes, that understands while it anonymizes, and that scales empathy without sacrificing safety.
+
+HopeChain is our contribution to a future where AI doesn't just process data—it protects people.
