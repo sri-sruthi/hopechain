@@ -78,7 +78,7 @@ hopechain/
 │   └── requirements.txt
 │
 ├── frontend/
-│   ├── app.py                 # User-facing intake UI
+│   ├── streamlit_app.py                 # User-facing intake UI
 │   ├── admin_dashboard.py     # NGO dashboard (assign, escalate, resolve)
 │   └── requirements.txt
 |
@@ -145,7 +145,7 @@ pip install -r requirements.txt
 ### 7. Run the intake UI
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 Runs at: **http://localhost:8501**
