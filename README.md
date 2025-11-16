@@ -161,17 +161,17 @@ Runs at: **http://localhost:8502**
 
 ```mermaid
 flowchart TD
-    A[Intake UI\nChild enters story + consent] --> B[Consent Agent\nValidate consent & type]
-    B --> C[Anonymizer Agent\nRemove PII safely]
-    C --> D[Emotion Agent\nDetect fear, sadness, despair]
-    C --> E[Needs Agent\nFood/Medical/Education/Safety]
-    D --> F[Risk Agent\n0–1 scoring + escalation]
+    A["Intake UI<br/>Child enters story + consent"] --> B["Consent Agent<br/>Validate consent & type"]
+    B --> C["Anonymizer Agent<br/>Remove PII safely"]
+    C --> D["Emotion Agent<br/>Detect fear, sadness, despair"]
+    C --> E["Needs Agent<br/>Food/Medical/Education/Safety"]
+    D --> F["Risk Agent<br/>0–1 scoring + escalation"]
     E --> F
-    F --> G[StoryHive Agent\nLLM microstory + illustration prompts]
-    G --> H[Case Manager\nGenerate Case ID + store]
+    F --> G["StoryHive Agent<br/>LLM microstory + illustration prompts"]
+    G --> H["Case Manager<br/>Generate Case ID + store"]
     F --> H
-    H --> I[Admin Dashboard\nHuman review + assignment]
-    I --> J[NGO / Counsellor Routing\nassign/resolve/escalate]
+    H --> I["Admin Dashboard<br/>Human review + assignment"]
+    I --> J["NGO / Counsellor Routing<br/>assign/resolve/escalate"]
 ```
 
 
